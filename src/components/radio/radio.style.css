@@ -1,0 +1,25 @@
+.radio-main{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.radio-main > input{
+    display: none;
+}
+.radio-main > input:checked + .radio-option{
+	background-color: #dbf1ffb4;
+}
+.radio-option{
+    width: 100%;
+    padding: 10px;
+	background-color: #eff7fcce;
+	border: 2px solid #acd7f31e;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.radio-option:hover{
+	background-color: #dbf1ffce;
+	border: 2px solid #70bbee1e;
+}

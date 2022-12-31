@@ -1,0 +1,28 @@
+.input-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.input-main > label{
+    width: 100%;
+    padding-right: 20px;
+    display: flex;
+}
+.input-main > label > span{
+    color: rgba(255, 0, 0, 0.516);
+}
+.input-main > label > i{
+    color: rgba(83, 83, 83, 0.553);
+    margin-left: 5px;
+    font-size: 13px;
+}
+.input-main > input{
+    width: calc(100%);
+    padding: 5px 10px;
+	background-color: #d1edff3c;
+	border: 2px solid #b0d4ec1e;
+    border-radius: 5px;
+    outline: none;
+}

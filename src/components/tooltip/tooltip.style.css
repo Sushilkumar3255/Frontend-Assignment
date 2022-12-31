@@ -1,0 +1,27 @@
+.tooltip-main{
+    position: relative;
+    cursor: pointer;
+}
+.tooltip-main:hover .tooltip-text{
+    display: block !important;
+}
+.tooltip-text{
+    position: absolute;
+    width: 300px;
+    left: 150%;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -7px gray;
+    top: -30px;
+    display: none;
+}
+.tooltip-text > div{
+    margin-top: 10px;
+}
+
+.tooltip-main > label > i{
+    color: rgba(83, 83, 83, 0.553);
+    margin-left: 5px;
+    font-size: 13px;
+}

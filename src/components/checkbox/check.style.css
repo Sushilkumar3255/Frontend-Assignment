@@ -1,0 +1,11 @@
+.check-main{
+    gap: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.check-main > label{
+    display: flex;
+}
+.check-main > label > span{
+    color: rgba(255, 0, 0, 0.516);
+}

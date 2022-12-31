@@ -1,0 +1,15 @@
+.group-main{
+    margin-top: 10px;
+}
+
+.group-main > label > span{
+    color: rgba(255, 0, 0, 0.516);
+}
+.group-main > label {
+    display: flex;
+}
+.group-main > label > i{
+    color: rgba(83, 83, 83, 0.553);
+    margin-left: 5px;
+    font-size: 13px;
+}
